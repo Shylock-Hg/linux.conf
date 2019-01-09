@@ -5,5 +5,5 @@ services:
         restart: always
         ports:
             - "8388:8388"
-        environment:       
+        environment:
             - PASSWORD="OWU2YzUxNW"
