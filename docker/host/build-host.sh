@@ -10,7 +10,7 @@
 set -e;
 
 # environament variable for system package manager
-readonly packages='\
+readonly packages="\
         base-devel \
         git vi vim emacs-nox wget gdb clang lldb cmake \
         openssh boost boost-libs valgrind man man-pages \
@@ -22,7 +22,7 @@ readonly packages='\
         xorg-xinit gnome \
         firefox \
         docker docker-compose \
-'
+"
 
 # root
 eval \
