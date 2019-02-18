@@ -17,5 +17,5 @@ deploy:
   provider: script
   script: ./.travis-ci/deploy-docker.sh
   on:
-    branch: master
+    all_branches: true
   skip_cleanup: true
